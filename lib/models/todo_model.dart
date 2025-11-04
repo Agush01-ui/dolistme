@@ -1,6 +1,6 @@
-class TodoModel {
+class Todo {
   String title;
   bool isDone;
 
-  TodoModel({required this.title, this.isDone = false});
+  Todo({required this.title, this.isDone = false});
 }
